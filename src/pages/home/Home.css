@@ -1,0 +1,62 @@
+.poster {
+  height: 1rem !important;
+  width: 100%;
+}
+
+.movie_list_img {
+  object-fit: cover;
+}
+.moviecard {
+  text-align: left;
+  position: relative;
+  color: white;
+  height: 100%;
+  /* opacity: 0.2; */
+  z-index: -11;
+}
+.text_overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  top: 5%;
+  opacity: 1;
+  font-weight: bold;
+  color: aliceblue;
+  z-index: 11;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+.movie_list_img {
+  opacity: 0.6 !important;
+  width: 100%;
+}
+.movie_title {
+  padding-left: 1rem;
+  font-size: 5rem;
+}
+.movie_rate {
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  /* letter-spacing: 3px; */
+}
+.movie_rate .entity {
+  letter-spacing: 3px;
+  padding-left: 0;
+
+  color: yellow;
+}
+.movie_releasedtae {
+  line-height: 15pt;
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+.movie_desc {
+  font-size: 1rem;
+  padding-left: 2rem;
+  width: 80%;
+}

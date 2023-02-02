@@ -1,0 +1,19 @@
+.header-icon {
+  max-height: 2rem;
+  text-decoration: none;
+}
+a span {
+  padding: 0 1rem;
+  color: white;
+}
+.header {
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-bottom: 1px solid white;
+  z-index: -99;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
